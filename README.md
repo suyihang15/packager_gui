@@ -71,3 +71,6 @@ python -m PyInstaller --onefile packager_gui.py
 - 打包目标程序时，外部依赖会被 PyInstaller 扫描并包含，但某些第三方包（如使用动态插件）可能需要额外的 hook 或手动 `--add-data`。
 - 图标需为 Windows 下的 `.ico` 文件。
 - 其本身是基于pyinstaller对python文件进行打包，如果一点看不懂上面的内容，可以直接用本人打包好的exe文件，
+
+软件示例：
+<img width="1502" height="1065" alt="屏幕截图 2026-05-21 164625" src="https://github.com/user-attachments/assets/09393cc2-208c-4440-aada-2df71b521fb0" />
